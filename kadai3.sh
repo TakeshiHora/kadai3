@@ -13,5 +13,5 @@ def gcd(m,n):
         else:
             return z
 
-print("最大公約数は"+str(gcd(170,25))+"個")
+print("最大公約数は"+str(gcd(170,25))+"です")
 
