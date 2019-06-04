@@ -13,5 +13,10 @@ def gcd(m,n):
         else:
             return z
 
-print("最大公約数は"+str(gcd(170,25))+"です")
+print("1つめの数字を入力して下さい")
+m=int(input())
+print("2つめの数字を入力して下さい")
+n=int(input())
+
+print("最大公約数は"+str(gcd(m,n))+"です")
 
