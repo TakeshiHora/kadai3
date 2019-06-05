@@ -10,8 +10,13 @@ kadai3.sh のテストスクリプト。
 ・.travis.yml
 Travis CIの設定
 
-２．GitHubのURL
+２．
+
+GitHubのURL
 https://github.com/TakeshiHora/kadai3
+
+Travis CIのURL
+https://travis-ci.com/TakeshiHora/kadai3
 
 ３.提出物
 
