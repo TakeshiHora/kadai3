@@ -1,0 +1,6 @@
+language: bash
+script:
+        echo "最大公約数のコードテスト"
+        - ./kadai3_test.sh
+
+

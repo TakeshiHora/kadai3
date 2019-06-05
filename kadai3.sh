@@ -1,22 +1,22 @@
-#!/usr/bin/python3
+#!/bin/bash
 
-def gcd(m,n):
-    x = max(m,n)
-    y = min(m,n)
-    if x%y == 0:
-        return y
-    else:
-        while x%y != 0:
-            z = x%y
-            x = y
-            y = z
-        else:
-            return z
 
-print("1つめの数字を入力して下さい")
-m=int(input())
-print("2つめの数字を入力して下さい")
-n=int(input())
+num1=$1
+num2=$2
 
-print("最大公約数は"+str(gcd(m,n))+"です")
+gcd(){
+    while [ $num1 -ne $num2 ]
+    do
+    if [ $num1 -gt $num2 ];then
+        num1=$(( num1-num2 ))
+    else
+        num2=$(( num2-num1 ))
+    fi
+    done
+    echo "最大公約数は$num1です"
+}
+
+
+gcd $1 $2
+
 
