@@ -1,0 +1,20 @@
+
+１．作成物
+・kadai3.sh
+2つの整数を引数として、最大公約数を算出。
+最大公約数は、ユークリッド互除法を用いた。
+
+・kadai3_test.sh
+kadai3.sh のテストスクリプト。
+
+・.travis.yml
+Travis CIの設定
+
+２．GitHubのURL
+https://github.com/TakeshiHora/kadai3
+
+３.提出物
+
+kadai3.sh
+kadai3_test.sh
+README.txt
